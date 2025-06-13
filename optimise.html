@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imad Clicks – Photography</title>
+  <link rel="stylesheet" href="optimise.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#gallery">Portfolio / Gallery</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <main>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <h1>Welcome to Imad Clicks</h1>
+      <div class="heroimages">
+        <!-- Optional: Add a hero banner image or carousel here -->
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+      <h2>Glances at Work</h2>
+      <div class="bestpics">
+        <img src="Hero.jpg" alt="Hero shot" class="heroimg" />
+        <img src="imad_pic.jpg" alt="Photographer Imad" class="heroimg" />
+        <img src="kids_snow.jpg" alt="Kids in snow" class="heroimg" />
+      </div>
+      <div class="bestpics">
+        <img src="sufi_imad.jpg" alt="Sufi-themed photo" class="heroimg" />
+        <img src="camera_imad.jpg" alt="Camera close-up" class="heroimg" />
+        <img src="drone_shot_imad.jpg" alt="Drone shot by Imad" class="heroimg" />
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <h2>Services Offered</h2>
+      <div class="diffservices">
+        <div class="service-card">
+          <h3>Wedding Photography</h3>
+          <p>Capturing timeless memories of your special day with creative compositions and cinematic style.</p>
+        </div>
+        <div class="service-card">
+          <h3>Pre-Wedding Shoots</h3>
+          <p>Beautiful storytelling shoots at scenic locations to celebrate your love journey.</p>
+        </div>
+        <div class="service-card">
+          <h3>Event Coverage</h3>
+          <p>Complete coverage of parties, birthdays, and corporate events with attention to detail and emotion.</p>
+        </div>
+        <div class="service-card">
+          <h3>Drone Videography</h3>
+          <p>Aerial views and cinematic flyovers using high-quality drone footage to enhance your videos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <form action="submit.php" method="POST">
+        
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About the Photographer</h2>
+      <p>
+        ImadClicks is a prominent wedding filmmaker and photographer based in Srinagar, Jammu and Kashmir. He offers a diverse range of wedding filmmaking services, from budget-friendly packages to customized wedding stories and high-end filmmaking options.
+      </p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
